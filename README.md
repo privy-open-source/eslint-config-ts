@@ -5,7 +5,7 @@
 
 First, install all dependencies
 
-### NPM
+**NPM**
 ```
 npm install --save-dev \
   eslint \
@@ -22,7 +22,7 @@ npm install --save-dev \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser
 ```
-### Yarn
+**Yarn**
 ```
 yarn add --dev \
   eslint \
@@ -43,14 +43,14 @@ yarn add --dev \
 
 Then, add this to your `.eslintrc` file (create one if doesn't exist):
 
-```json
+```jsonc
 {
   "extends": "@privyid/eslint-config-ts"
 }
 ```
 
 Optional, add this to `package.json` script's
-```json
+```jsonc
 {
   // ...
   "scripts": {
