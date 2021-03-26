@@ -1,0 +1,54 @@
+{
+  "name": "@privyid/eslint-config-ts",
+  "version": "1.0.0",
+  "description": "Eslint shareable config for Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/privy-open-source/eslint-config-ts.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/privy-open-source/eslint-config-ts/issues"
+  },
+  "homepage": "https://github.com/privy-open-source/eslint-config-ts#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "eslint-config-adenvt": "^4.0.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-unicorn": "^29.0.0",
+    "eslint-plugin-varspacing": "^1.2.2",
+    "eslint-plugin-vue": "^7.8.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "babel-eslint": "^10.1.0",
+    "eslint": "*",
+    "eslint-config-adenvt": "*",
+    "eslint-config-standard": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-standard": "*",
+    "eslint-plugin-unicorn": "*",
+    "eslint-plugin-varspacing": "*",
+    "eslint-plugin-vue": "*"
+  }
+}
