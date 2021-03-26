@@ -6,7 +6,7 @@
 First, install all dependencies
 
 **NPM**
-```
+```bash
 npm install --save-dev \
   eslint \
   babel-eslint \
@@ -23,7 +23,7 @@ npm install --save-dev \
   @typescript-eslint/parser
 ```
 **Yarn**
-```
+```bash
 yarn add --dev \
   eslint \
   babel-eslint \
@@ -63,5 +63,38 @@ Optional, add this to `package.json` script's
 }
 ```
 
+## Lint on commit
+If you run linting every commit, you can use [pre-commit] and [lint-staged]
+```bash
+# NPM
+npm install --save-dev pre-commit lint-staged
+
+# Yarn
+yarn add --dev pre-commit lint-staged
+```
+
+and this to your `package.json`
+```jsonc
+{
+  // ...
+  "scripts": {
+    // ...
+    "precommit": "lint-staged",
+    // ...
+  },
+  // ...
+  "precommit": ["precommit"],
+  "lint-staged": {
+    "*.(js|ts|vue)": [
+      "eslint --fix"
+    ],
+    // ...
+  },
+  // ...
+}
+```
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+[pre-commit]: https://www.npmjs.com/package/pre-commit
+[lint-staged]: https://www.npmjs.com/package/lint-staged
