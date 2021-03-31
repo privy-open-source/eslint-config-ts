@@ -19,6 +19,7 @@ npm install --save-dev \
   eslint-plugin-varspacing \
   eslint-plugin-vue \
   eslint-config-adenvt \
+  @privyid/eslint-config-ts \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser
 ```
@@ -36,6 +37,7 @@ yarn add --dev \
   eslint-plugin-varspacing \
   eslint-plugin-vue \
   eslint-config-adenvt \
+  @privyid/eslint-config-ts \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser
 ```
