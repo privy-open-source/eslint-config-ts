@@ -43,7 +43,7 @@ module.exports = {
     'camelcase'                                       : 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-use-before-define'         : 'off',
-    'unicorn/prevent-abbreviations'                   : ['error', { whitelist: { props: true } }],
+    'unicorn/prevent-abbreviations'                   : ['error', { allowList: { props: true } }],
   },
   overrides: [
     {
